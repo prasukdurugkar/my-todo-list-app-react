@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+    "Helvetica Neue", sans-serif;
+}
+
+/* Header non-dynamics Styles */
+.header {
+  font-family: "Luckiest Guy";
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+/* Card Elements */
+.card {
+  margin: 10px;
+  display: flex;
+  width: 300px;
+  height: 200px;
+  align-items: center;
+  border-radius: 5px;
+}
+.cardMain {
+  font-weight: 500;
+  font-size: 20px;
+}
+.cardMain span {
+  font-weight: 700;
+  font-size: 20px;
+}
+.numDisplay {
+  background-color: #9b59b6;
+  height: 25px;
+  width: 25px;
+  /* display: flex; */
+  text-align: center;
+  position: relative;
+  left: 0px;
+  top: -88px;
+  border-radius: 5px 0 10px 0;
+}
+
+.dateDisplay {
+  color: #95a5a6;
+}
+.taskDisplay span {
+  color: #3498db;
+}
+.priorityDisplay span:first-child {
+  color: #1abc9c;
+}
+.priorityDisplay span:last-child {
+  padding: 0px 4px;
+  text-align: center;
+  border-radius: 5px;
+  vertical-align: middle;
+  font-weight: 500;
+  margin: 0 2px;
+}
+
+.dateDisplay span {
+  color: #e67e22;
+}
+.todoList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.closeCard {
+  background: transparent;
+  border: none;
+  position: relative;
+  left: 250px;
+  top: -81px;
+}
